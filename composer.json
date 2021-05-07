@@ -1,19 +1,12 @@
 {
-    "name": "enotas/php-client",
-    "description": "eNotas GW API client for PHP",
-    "keywords": ["eNotas", "NFS-e"],
-    "homepage": "https://github.com/eNotasGW/php-client",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "eNotas Gateway",
-            "email": "suporte@enotasgw.com.br"
-        }
-    ],
+    "name": "simplesvet/enotas-nfse",
+    "version": "1.0",
+    "description": "eNotasGW API NFS-e",
+    "type": "package",
     "require": {
         "php": ">=5.3.0"
     },
+    "license": "mit",
     "autoload": {
         "psr-4": {
             "eNotasGW\\Api\\": "src/"
