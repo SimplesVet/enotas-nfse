@@ -53,7 +53,7 @@
 			);
 
 			if(!isset($config->apiKey)) {
-				throw new Exception('A api key deve ser definida no método configure.');
+				throw new \Exception('A api key deve ser definida no método configure.');
 			}
 
 			self::$_apiKey = $config->apiKey;
