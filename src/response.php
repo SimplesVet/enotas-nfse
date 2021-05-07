@@ -1,6 +1,6 @@
 <?php
 	namespace eNotasGW\Api;
-	
+
 	class response {
 		/**
 		* HTTP response code
@@ -41,7 +41,7 @@
 
 		private function decodeResponse() {
 			$formatter = eNotasGW::getMediaFormatter($this->contentType);
-			
+
 			return $formatter->decode($this->body);
 		}
 	}

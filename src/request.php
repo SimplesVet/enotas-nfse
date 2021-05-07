@@ -36,7 +36,7 @@
 		* HTTP request params.
 		* @var array
 		*/
-		public $parameters = array(); 
+		public $parameters = array();
 
 		/**
 		* HTTP request timeout.
@@ -52,7 +52,7 @@
 			return $this->parameters[$name];
 		}
 
-		public function getRequestBody() {	
+		public function getRequestBody() {
 			if(empty($this->parameters)) {
 				return NULL;
 			}
@@ -68,10 +68,10 @@
 			if($formatter !== FALSE) {
 				$result = $formatter->encode($this->parameters, $contentType);
 				$this->contentType = $contentType;
-			  
-				return $result;              
+
+				return $result;
 			}
-			  
+
 			return $this->parameters;
 		}
 	}

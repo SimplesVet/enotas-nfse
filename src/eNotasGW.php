@@ -1,8 +1,8 @@
 <?php
-	namespace eNotasGW\Api; 
-	
+	namespace eNotasGW\Api;
+
 	require('helper.php');
-	
+
 	require('exceptions/requestException.php');
 	require('exceptions/apiException.php');
 	require('exceptions/invalidApiKeyException.php');
@@ -27,7 +27,7 @@
 
 	use eNotasGW\Api as api;
 	use eNotasGW\Api\Proxy as proxy;
-	use eNotasGW\Api\Media\Formatters as formatters;  
+	use eNotasGW\Api\Media\Formatters as formatters;
 
 	class eNotasGW {
 		private static $_apiKey;
@@ -69,7 +69,7 @@
 			if(isset($config->defaultContentType)) {
 				self::$_defaultContentType = $config->defaultContentType;
 			}
-			
+
 			if(isset($config->_trustedCAListPath)) {
 				self::$_trustedCAListPath = $config->_trustedCAListPath;
 			}
@@ -84,7 +84,7 @@
 
 		public static function getMediaFormatter($contentType) {
 			$contentType = explode(';', $contentType);
-			
+
 			return self::$_formmaters[$contentType[0]];
 		}
 
