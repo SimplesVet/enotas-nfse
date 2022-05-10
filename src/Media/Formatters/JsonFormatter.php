@@ -1,5 +1,5 @@
 <?php
-namespace EnotasGw\Media\Formatters;
+namespace EnotasGw\V1\Media\Formatters;
 
 class JsonFormatter extends FormatterBase
 {

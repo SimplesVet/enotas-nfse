@@ -1,11 +1,11 @@
 <?php
-namespace EnotasGw\Proxy;
+namespace EnotasGw\V1\Proxy;
 
-use EnotasGw\Exceptions\ApiException;
-use EnotasGw\Exceptions\InvalidApiKeyException;
-use EnotasGw\Exceptions\RequestException;
-use EnotasGw\Exceptions\UnauthorizedException;
-use EnotasGw\Request;
+use EnotasGw\V1\Exceptions\ApiException;
+use EnotasGw\V1\Exceptions\InvalidApiKeyException;
+use EnotasGw\V1\Exceptions\RequestException;
+use EnotasGw\V1\Exceptions\UnauthorizedException;
+use EnotasGw\V1\Request;
 
 abstract class ProxyBase
 {

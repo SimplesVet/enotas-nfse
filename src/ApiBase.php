@@ -1,5 +1,5 @@
 <?php
-namespace EnotasGw;
+namespace EnotasGw\V1;
 
 class ApiBase
 {

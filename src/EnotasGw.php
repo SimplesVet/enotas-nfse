@@ -1,9 +1,9 @@
 <?php
-namespace EnotasGw;
+namespace EnotasGw\V1;
 
-use EnotasGw\Media\Formatters\FormDataFormatter;
-use EnotasGw\Media\Formatters\JsonFormatter;
-use EnotasGw\Proxy\CurlProxy;
+use EnotasGw\V1\Media\Formatters\FormDataFormatter;
+use EnotasGw\V1\Media\Formatters\JsonFormatter;
+use EnotasGw\V1\Proxy\CurlProxy;
 use Exception;
 
 class EnotasGw

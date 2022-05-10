@@ -1,7 +1,7 @@
 <?php
-namespace EnotasGw\Proxy;
+namespace EnotasGw\V1\Proxy;
 
-use EnotasGw\Response;
+use EnotasGw\V1\Response;
 
 class CurlProxy extends ProxyBase
 {

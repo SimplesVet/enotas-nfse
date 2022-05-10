@@ -1,5 +1,5 @@
 <?php
-namespace EnotasGw;
+namespace EnotasGw\V1;
 
 class EmpresaApi extends ApiBase
 {
@@ -20,7 +20,7 @@ class EmpresaApi extends ApiBase
             )
         ));
     }
-    
+
     /**
      * Insere ou atualiza uma empresa
      * 
@@ -36,14 +36,15 @@ class EmpresaApi extends ApiBase
             )
         ));
     }
-    
+
     /**
      * Atualiza a logo da empresa
      * 
      * @param string $idEmpresa id da empresa para a qual a nota será emitida
      * @param fileParameter $file imagem a ser utilizada como logo.
      */
-    public function atualizarLogo($idEmpresa, $file) {
+    public function atualizarLogo($idEmpresa, $file)
+    {
         $this->callOperation(array(
             'method' => 'POST',
             'decodeResponse' => FALSE,
@@ -58,7 +59,7 @@ class EmpresaApi extends ApiBase
             )
         ));
     }
-    
+
     /**
      * Atualiza o certificado digital da empresa
      * 
