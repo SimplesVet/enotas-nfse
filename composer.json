@@ -9,7 +9,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "EnotasGw\\V1": "src/"
+            "EnotasGw\\V1\\": "src/"
         }
     }
 }
