@@ -11,7 +11,7 @@ class FileParameter
 
     public static function fromRawData($rawData, $contentType, $fileName)
     {
-        $file = new fileParameter();
+        $file = new FileParameter();
         $file->rawData = $rawData;
         $file->contentType = $contentType;
         $file->name = $fileName;
