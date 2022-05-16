@@ -3,7 +3,7 @@
 	
 	require('../src/eNotasGW.php');
 	
-	use eNotasGW\Api\Exceptions as Exceptions;
+	use EnotasGw\Exceptions as Exceptions;
 
 	eNotasGW::configure(array(
 		'apiKey' => '<api key>'
