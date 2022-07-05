@@ -1,6 +1,6 @@
 {
     "name": "simplesvet/enotas-nfse",
-    "version": "1.2",
+    "version": "1.2.2",
     "description": "EnotasGw API NFS-e",
     "type": "package",
     "require": {
