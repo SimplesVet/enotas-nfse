@@ -1,4 +1,5 @@
 <?php
+
 namespace EnotasGw\V1;
 
 use EnotasGw\V1\Media\Formatters\FormDataFormatter;
@@ -10,7 +11,7 @@ class EnotasGw
 {
     private static $_apiKey;
     private static $_defaultContentType = 'application/json';
-    private static $_baseUrl = 'http://api.enotasgw.com.br';
+    private static $_baseUrl = 'https://api.enotasgw.com.br';
     private static $_version = '1';
     private static $_versionedBaseUrl;
     private static $_proxy;
